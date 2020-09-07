@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Webdesign</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../jquery.waypoints.min.js">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+
+      <div id="menu">
+            <a id="exp" class = "#" href="../index.html"><img alt="experiment" src="../pics/experiment.png"/></a>
+            <a id="know" class="active" href="./knowmore.html"><img alt="know more" src="../pics/know.png"/></a>
+            <a id="shop" class="#" href="./shop.html"><img alt="shop section" src="../pics/shop.png"/></a>  
+      </div>
+
+      <div id="share">
+            <a href="#"><img alt="share button" src="../pics/share.png" onmouseout="normal()" onmouseover="comeIn()"/></a>
+            <div id="content" class="p2">
+                <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cyclemon.com&layout=button_count&show_faces=true&width=450&action=like&colorscheme=light&height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:95px; height:20px;" allowtransparency="true"></iframe>
+            </div>
+      </div>
+
+      <ul id="nav">
+
+        <div id="nom">
+			<li><a id="b1" href="#intro" title="Next Section" style="left: 45px"><img src="../pics/title21.png" alt="Link" /></a></li>
+			<li><a id="b3" href="#third" title="Next Section" style="left: 25px"><img src="../pics/title23.png" alt="Link" /></a></li>
+        </div>
+        
+        <div class="nom_3">
+
+    	<li><a id="n1"  class = "active hovere" href="#p1" title="Next Section"><img src="../pics/button2.png" alt="Link"  onmouseout="hoverIn(document.getElementById('b1'))" onmouseover="hoverOut(document.getElementById('b1'))"></a></li>
+	    <li><a id="n19" class="hovere" href="#p2" title="Next Section"><img src="../pics/button2.png" alt="Link"  onmouseout="hoverIn(document.getElementById('b3'))" onmouseover="hoverOut(document.getElementById('b3'))"></a></li>
+        </div>
+	</ul>
+
+    <div class="story">
+        <p>© CYCLEMON 2013 — All rights reserved</p>
+        </div>
+
+        <section class="pag_2" id="p1">
+            <img src="../pics/teaser.png" alt="teaser">
+           <iframe src="http://player.vimeo.com/video/57809383?portrait=0" width="650" height="366" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </section>
+    
+	<section class="pag_21" id="p2">
+        <img class="img" src="../pics/us.jpg" alt="teaser">
+        <div class="about">
+            <li class="p1">
+                <a href=""><img src="../pics/faces.jpg" alt="faces"></a>
+                <img class ="img" src="../pics/tom.jpg" alt="tom">
+                <p>Freelance illustrator and motion Designer, graduated from Paris' Decorative Arts school.</p>
+                <ul>
+                    <a href=""><img src="../pics/social.png" alt="social"></a>
+                    <a href=""><img src="../pics/social1.png" alt="social"></a>
+                    <a href=""><img src="../pics/social2.png" alt="social"></a>
+                </ul>
+            </li>
+
+            <li class="p1">
+                <a href=""><img src="../pics/faces2.jpg" alt="faces"></a>
+                <img class="img" src="../pics/rom1.jpg" alt="tom">
+                <p>Interactive designer at OgivlyOne Paris, and graduated from Paris' Gobelins school.</p>
+                <ul>
+                    <a href=""><img src="../pics/social.png" alt="social"></a>
+                    <a href=""><img src="../pics/social1.png" alt="social"></a>
+                    <a href=""><img src="../pics/social2.png" alt="social"></a>
+                </ul>
+            </li>
+        </div>
+
+	</section>
+
+
+
+
+
+        <script src="../script.js" ></script>
+        
+    </body>
+</html>
