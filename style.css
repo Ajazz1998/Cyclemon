@@ -321,6 +321,9 @@ body{
         top: 0;
 }
 
+    /*------------- Page - 5  --------------- */
+
+
 .page5 {
     background: url(pics/fond3.jpg) 50% 200% no-repeat fixed;
     background-color: #f79cc1;
@@ -344,6 +347,9 @@ body{
         z-index: 1;
         top: 0;
 }
+
+        /*------------- Page - 6  --------------- */
+
 
 .page6 {
     background: url(pics/fond4.jpg) 50% 200% no-repeat fixed;
