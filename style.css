@@ -375,6 +375,11 @@ body{
         top: 0;
 }
 
+
+
+    /*------------- Page - 7  --------------- */
+
+
 .page7 {
     background: url(pics/fond5.jpg) 50% 200% no-repeat fixed;
     background-color: #f8d5b8;
@@ -398,6 +403,10 @@ body{
         z-index: 1;
         top: 0;
 }
+
+
+    /*------------- Page - 8  --------------- */
+
 
 .page8 {
     background: url(pics/fond6.jpg) 50% 200% no-repeat fixed;
