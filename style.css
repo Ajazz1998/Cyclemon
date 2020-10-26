@@ -194,7 +194,7 @@ body{
 }
 
 
-
+    /*------------- Page - 1  --------------- */
 
 .page1{
     background: url(pics/main.jpg) 0 no-repeat;
@@ -232,6 +232,9 @@ body{
 }
 
 
+    /*------------- Page - 2  --------------- */
+
+
 .page2 {
     background: url(pics/fond18.jpg) 50% no-repeat fixed;
     background-color: #000;
@@ -262,6 +265,9 @@ body{
         z-index: 1;
         top: 0;
 }
+
+    /*------------- Page - 3  --------------- */
+
 
 .page3 {
     background: url(pics/fond1.jpg) 50% 200% no-repeat fixed;
