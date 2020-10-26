@@ -10,6 +10,9 @@ body{
 }
 
 
+    /*------------- Navbar --------------- */
+
+
 #menu, #share, #nav{
     position: fixed;
 }
@@ -837,9 +840,6 @@ footer p {
     margin: 0 5px;
     opacity: .5;
 }
-
-
-
 
 
 
